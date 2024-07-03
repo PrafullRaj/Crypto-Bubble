@@ -1,0 +1,37 @@
+/* src/TradePage.css */
+.trade-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .trade-form {
+    margin-bottom: 20px;
+  }
+  
+  .trade-form input, .trade-form select, .trade-form button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .trades-history {
+    margin-top: 20px;
+  }
+  
+  .trades-history ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .trades-history li {
+    background-color: #f5f5f5;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

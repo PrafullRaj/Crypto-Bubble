@@ -1,0 +1,76 @@
+/* src/components/Dashboard.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar-left {
+  font-size: 24px;
+}
+
+.navbar-right input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.bubble-frame {
+  position: relative;
+  margin: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 600px;
+}
+
+.bottom-search {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: calc(100% - 40px);
+}
+
+.coin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.coin-table th, .coin-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.coin-table th {
+  background-color: #333;
+  color: white;
+}
+
+.tooltip {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 5px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+svg circle {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+svg circle:hover {
+  transform: scale(1.1);
+}

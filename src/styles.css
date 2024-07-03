@@ -1,0 +1,38 @@
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  a {
+    display: block;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  input, select, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  

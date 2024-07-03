@@ -1,0 +1,30 @@
+.crypto-detail {
+  padding: 20px;
+}
+
+.crypto-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.crypto-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(33.333% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.crypto-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.crypto-card p {
+  margin: 5px 0;
+}
