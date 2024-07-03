@@ -1,4 +1,11 @@
 # Crypto-Bubble project
+## 1. Dashboard
+![Screenshot 2024-07-03 212547](https://github.com/PrafullRaj/Crypto-Bubble/assets/99156529/ad9da441-adcb-42b8-ade0-c5bb7fc269fe)
+
+## 2. Crypto-Details
+![Screenshot 2024-07-03 212558](https://github.com/PrafullRaj/Crypto-Bubble/assets/99156529/f3a21a0f-23a9-4934-b97f-269487385ef5)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
